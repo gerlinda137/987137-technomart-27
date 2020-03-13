@@ -1837,7 +1837,7 @@ fieldset {
 
 .item-name a {
   display: flex;
-  width: 100%;
+  width: 190px;
   justify-content: center;
   font-family: PTSans, Arial, sans-serif;
   font-size: 18px;
