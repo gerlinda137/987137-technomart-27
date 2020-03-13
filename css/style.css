@@ -165,28 +165,28 @@ a.purchase-link__active:active {
 }
 
 .search input::-webkit-input-placeholder {
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 17px;
   text-align: left;
   color: #fff;
 }
 
 .search input::-moz-placeholder {
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 17px;
   text-align: left;
   color: #fff;
 }
 
 .search input:-moz-placeholder {
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 17px;
   text-align: left;
   color: #fff;
 }
 
 .search input:-ms-input-placeholder {
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 17px;
   text-align: left;
   color: #fff;
@@ -201,7 +201,7 @@ a.purchase-link__active:active {
 }
 
 .search input:focus {
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 17px;
   color: black;
   background-color: #fff;
@@ -268,7 +268,7 @@ a.checkout:active {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
@@ -286,7 +286,7 @@ a.checkout:active {
 
 .header-contacts a {
   position: relative;
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 21px;
   padding: 8px 50px 8px 70px;
   color: #ee3643;
@@ -304,7 +304,7 @@ a.checkout:active {
 }
 
 .header-contacts p {
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
   text-align: center;
@@ -497,7 +497,7 @@ a.user-name__log-out{
 }
 
 .site-navigation li {
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   list-style: none;
   padding: 21px 10px;
   display: flex;
@@ -548,7 +548,7 @@ a.user-name__log-out{
 }
 
 .main-container p {
-  font-family: PTSans, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   margin-top: 0;
@@ -1040,7 +1040,7 @@ a.popular-producers__button {
   border-style: solid;
   color: #fff;
   font-weight: 700;
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 21px;
   line-height: 30px;
   text-align: left;
@@ -1077,7 +1077,7 @@ a.popular-producers__button {
 }
 
 .services__card h3 {
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-weight: 400;
   font-size: 36px;
   text-align: left;
@@ -1120,7 +1120,7 @@ a.popular-producers__button {
 }
 
 .credit-card button {
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #fff;
@@ -1240,7 +1240,7 @@ a.popular-producers__button {
 
 .breadcrumbs-current,
 .breadcrumbs a {
-  font-family: PTSans, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   padding-right: 15px;
@@ -1282,7 +1282,7 @@ a.breadcrumbs__home {
 
 p.filters-title {
   display: flex;
-  font-family: PTSans, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-align: left;
@@ -1299,7 +1299,7 @@ p.filters-title {
 
 p.sorting-title {
   display: flex;
-  font-family: PTSans, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-align: left;
@@ -1327,7 +1327,7 @@ p.sorting-title {
 
 .sorting-types button {
   display: flex;
-  font-family: PTSans, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.18);
   padding: 0;
   font-size: 12px;
@@ -1413,7 +1413,7 @@ button.sorting-button__active {
 .filters {
   display: flex;
   flex-direction: column;
-  font-family: PTSans, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 15px;
   text-transform: uppercase;
   color: #000;
@@ -1435,7 +1435,7 @@ button.sorting-button__active {
 }
 
 .price-filter__title {
-  font-family: PTSans, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 17px;
   font-weight: bold;
   line-height: 30px;
@@ -1503,7 +1503,7 @@ button.range-end {
   background-color: #f7f3ec;
   border: none;
   text-align: center;
-  font-family: PTSans, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
   padding-left: 20px;
@@ -1665,7 +1665,7 @@ fieldset {
 /*Кнопка отправики*/
 .show-button {
   display: flex;
-  font-family: PTSans, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
@@ -1838,7 +1838,7 @@ fieldset {
   display: flex;
   width: 100%;
   justify-content: center;
-  font-family: PTSans, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -1852,7 +1852,7 @@ fieldset {
   justify-content: center;
   margin-top: 18px;
   margin-bottom: 9px;
-  font-family: PTSans, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 18px;
@@ -1865,7 +1865,7 @@ fieldset {
   justify-content: center;
   align-items: center;
   margin-left: 5px;
-  font-family: PTSans, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 17px;
   font-weight: 700;
   color: #fff;
@@ -1897,7 +1897,7 @@ fieldset {
   justify-content: center;
   width: 38px;
   height: 38px;
-  font-family: PTSans, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   border: solid 1px #e5e5e5;
@@ -1926,7 +1926,7 @@ a.pages-buttons__active {
 }
 
 .pages-buttons__next {
-  font-family: PTSans, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
@@ -2017,7 +2017,7 @@ p.some-words__text {
 }
 
 .footer-site-navigation a {
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   text-align: left;
@@ -2074,7 +2074,7 @@ p.some-words__text {
 
 .additional-info {
   display: flex;
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
   text-align: left;
@@ -2265,7 +2265,7 @@ p.some-words__text {
   left: 50%;
   margin-left: -310px;
   background-color: #ffffff;
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 18px;
   line-height: 18px;
   text-align: left;
@@ -2320,7 +2320,7 @@ textarea {
 
 .letter input[type='text'],
 textarea {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-align: left;
@@ -2341,7 +2341,7 @@ textarea:focus {
 /*Плэйсхолдеры*/
 .letter input[type='text']::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #999999;
@@ -2350,7 +2350,7 @@ textarea::-webkit-input-placeholder {
 
 .letter input[type='text']::-moz-placeholder,
 textarea::-moz-placeholder {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #999999;
@@ -2359,7 +2359,7 @@ textarea::-moz-placeholder {
 
 .letter input[type='text']::-moz-placeholder,
 textarea::-moz-placeholder {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #999999;
@@ -2368,7 +2368,7 @@ textarea::-moz-placeholder {
 
 .letter input[type='text']::-ms-input-placeholder,
 textarea::-ms-input-placeholder {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #999999;
@@ -2388,7 +2388,7 @@ textarea::-ms-input-placeholder {
 .submit-button__wrapper input[type=submit] {
   margin: 37px 80px;
   cursor: pointer;
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 18px;
   width: 460px;
   height: 38px;
@@ -2441,7 +2441,7 @@ textarea::-ms-input-placeholder {
 }
 
 .added-to-basket p {
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #000;
@@ -2482,7 +2482,7 @@ textarea::-ms-input-placeholder {
   align-items: center;
   width: 220px;
   height: 38px;
-  font-family: Cuprum, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   color: #000;
   font-size: 14px;
   line-height: 18px;
