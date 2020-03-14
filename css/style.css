@@ -1,5 +1,5 @@
 @font-face {
- font-family: 'Cuprum', sans-serif;
+ font-family: 'Cuprum';
    src: url("../fonts/cuprum/cuprum.woff") format("woff"),
         url("../fonts/cuprum/cuprum.woff2") format("woff2");
    font-weight: 400;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
- font-family: 'Cuprum', sans-serif;
+ font-family: 'Cuprum';
    src: url("../fonts/cuprum/cuprumbold.woff") format("woff"),
         url("../fonts/cuprum/cuprumbold.woff2") format("woff2");
    font-weight: 700;
@@ -15,26 +15,26 @@
 }
 
 @font-face {
- font-family: 'PT Sans', sans-serif;
-   src: url("../fonts/pt sans/pt-sans-v11-cyrillic_latin-regular.woff") format("woff"),
-        url("../fonts/pt sans/pt-sans-v11-cyrillic_latin-regular.woff2") format("woff2");
+ font-family: 'PT Sans';
+   src: url("../fonts/pt-sans/pt-sans-v11-cyrillic_latin-regular.woff") format("woff"),
+        url("../fonts/pt-sans/pt-sans-v11-cyrillic_latin-regular.woff2") format("woff2");
    font-weight: 400;
    font-style: normal;
 }
 
 @font-face {
- font-family: 'PT Sans', sans-serif;
-   src: url("../fonts/pt sans/pt-sans-v11-cyrillic_latin-700.woff")
+ font-family: 'PT Sans';
+   src: url("../fonts/pt-sans/pt-sans-v11-cyrillic_latin-700.woff")
     format("woff"),
-        url("../fonts/pt sans/pt-sans-v11-cyrillic_latin-700.woff2") format("woff2");
+        url("../fonts/pt-sans/pt-sans-v11-cyrillic_latin-700.woff2") format("woff2");
    font-weight: 700;
    font-style: normal;
 }
 
 @font-face {
- font-family: 'PT Sans', sans-serif;
-   src: url("../fonts/pt sans/pt-sans-v11-cyrillic_latin-italic.woff") format("woff"),
-        url("../fonts/pt sans/pt-sans-v11-cyrillic_latin-italic.woff2") format("woff2");
+ font-family: 'PT Sans';
+   src: url("../fonts/pt-sans/pt-sans-v11-cyrillic_latin-italic.woff") format("woff"),
+        url("../fonts/pt-sans/pt-sans-v11-cyrillic_latin-italic.woff2") format("woff2");
    font-weight: 400;
    font-style: italic;
 }
@@ -1377,7 +1377,7 @@ p.sorting-title {
 .sorting-types {
   display: flex;
   list-style: none;
-  padding: 0;
+  padding-left: 13px;
   color: #000;
   margin: 0;
 }
@@ -1417,15 +1417,15 @@ button.sorting-types__active-button {
 }
 
 .sorting-types li:first-child {
-  margin-right: 69px;
+  margin-right: 73px;
 }
 
 .sorting-types li:nth-child(2) {
-  margin-right: 65px;
+  margin-right: 70px;
 }
 
 .sorting-types li:last-child {
-  margin-right: 45px;
+  margin-right: 55px;
 }
 
 .sorting-buttons {
