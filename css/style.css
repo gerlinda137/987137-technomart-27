@@ -1,3 +1,44 @@
+@font-face {
+ font-family: 'Cuprum', sans-serif;
+   src: url("../fonts/cuprum/cuprum.woff") format("woff"),
+        url("../fonts/cuprum/cuprum.woff2") format("woff2");
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+ font-family: 'Cuprum', sans-serif;
+   src: url("../fonts/cuprum/cuprumbold.woff") format("woff"),
+        url("../fonts/cuprum/cuprumbold.woff2") format("woff2");
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+ font-family: 'PT Sans', sans-serif;
+   src: url("../fonts/pt sans/pt-sans-v11-cyrillic_latin-regular.woff") format("woff"),
+        url("../fonts/pt sans/pt-sans-v11-cyrillic_latin-regular.woff2") format("woff2");
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+ font-family: 'PT Sans', sans-serif;
+   src: url("../fonts/pt sans/pt-sans-v11-cyrillic_latin-700.woff")
+    format("woff"),
+        url("../fonts/pt sans/pt-sans-v11-cyrillic_latin-700.woff2") format("woff2");
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+ font-family: 'PT Sans', sans-serif;
+   src: url("../fonts/pt sans/pt-sans-v11-cyrillic_latin-italic.woff") format("woff"),
+        url("../fonts/pt sans/pt-sans-v11-cyrillic_latin-italic.woff2") format("woff2");
+   font-weight: 400;
+   font-style: italic;
+}
+
 
 body {
   font-family: 'Cuprum', Arial, sans-serif;
@@ -866,7 +907,7 @@ button.slider__navigation-next {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-top: -27px;
+  margin-top: -30px;
 }
 
 .catalog-goods__heading {
@@ -959,6 +1000,7 @@ a.popular-producers__button {
 .producers-list__container {
   display: flex;
   margin-bottom: 50px;
+  margin-top: 3px;
 }
 
 .producers-list {
