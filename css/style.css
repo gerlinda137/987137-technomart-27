@@ -770,6 +770,7 @@ top: 31px;
   width: 620px;
   height: 266px;
   background-image: url(../img/slide-image.jpg);
+  background-color: #684b3e;
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFF;
@@ -781,6 +782,7 @@ top: 31px;
 
 .second-slider {
   background-image: url(../img/slide-image2.png);
+  background-color: #927f6e;
 }
 
 .slider__item h3 {
@@ -956,6 +958,10 @@ button.slider__navigation-next {
   padding-left: 0;
   margin-top: 40px;
   margin-bottom: 21px;
+}
+
+.main-goods__items {
+  margin-top: 21px;
 }
 
 .catalog-version__items {
@@ -1301,7 +1307,7 @@ a.popular-producers__button {
   font-size: 13px;
   text-transform: uppercase;
   padding-right: 15px;
-  margin-left: 28px;
+  margin-left: 26px;
   color: #000;
   position: relative;
 }
@@ -1329,7 +1335,7 @@ a.breadcrumbs__home {
 .filters__and__sorting {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 12px;
+  margin-bottom: 9px;
 }
 
 .filters-title__container {
@@ -1488,7 +1494,7 @@ button.sorting-button__active {
   border: solid 0.5px #e5e5e5;
   width: 220px;
   position: absolute;
-  top: 181px;
+  top: 196px;
 }
 
 .price-filter__title {
@@ -1595,7 +1601,7 @@ fieldset {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 47px;
+  margin-top: 50px;
 }
 
 .checkboxes::after {
@@ -1603,6 +1609,7 @@ fieldset {
   border: solid 0.5px #e5e5e5;
   width: 220px;
   position: absolute;
+  top: 240px;
 }
 
 .checkboxes-list {
@@ -2150,7 +2157,7 @@ p.some-words__text {
 .copyright {
   display: flex;
   flex-wrap: wrap;
-  max-width: 228px;
+  max-width: 231px;
 }
 
 .social-media {
