@@ -321,11 +321,16 @@ a.checkout:active {
   display: flex;
 }
 
+.header-info__container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-info h1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 320px;
+  max-width: 200px;
   font-family: Cuprum, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -333,12 +338,12 @@ a.checkout:active {
   line-height: 23px;
   text-align: left;
   letter-spacing: normal;
-  padding: 38px 75px 22px 51px;
+  /* padding: 38px 75px 22px 51px; */
   color: #ee3643;
 }
 
 .header-contacts {
- padding-top: 57px;
+ /* padding-top: 57px; */
  flex-shrink: 0;
 }
 
@@ -377,8 +382,8 @@ a.checkout:active {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  margin-top: 58px;
-  margin-left: 70px;
+  /* margin-top: 58px; */
+  /* margin-left: 70px; */
   padding: 0;
   list-style: none;
   width: 281px;
