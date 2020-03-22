@@ -541,7 +541,7 @@ a.user-name__log-out{
 /*Навигация*/
 
 .main-navigation {
-  padding-bottom: 60px;
+  padding-bottom: 59px;
   margin-bottom: 59px;
 }
 
@@ -1453,7 +1453,6 @@ button.sorting-types__active-button {
 .sorting-buttons {
   display: flex;
   align-items: center;
-  margin-top: -5px;
 }
 
 .sorting-buttons button {
@@ -1755,6 +1754,7 @@ fieldset {
   cursor: pointer;
   padding: 10px 33px 9px 39px;
   margin-top: 56px;
+  max-width: 140px;
 }
 
 .show-button:hover {
@@ -1816,7 +1816,7 @@ fieldset {
 }
 
 .catalog-version__items {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .catalog-item:hover .catalog-item__hover-button {
