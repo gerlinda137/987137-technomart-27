@@ -324,13 +324,14 @@ a.checkout:active {
 .header-info__container {
   display: flex;
   justify-content: space-between;
+  margin-top: 58px;
+  margin-bottom: 15px;
 }
 
 .header-info h1 {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 200px;
+  flex-wrap: wrap;;
   font-family: Cuprum, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -338,6 +339,9 @@ a.checkout:active {
   line-height: 23px;
   text-align: left;
   letter-spacing: normal;
+  max-width: 197px;
+  margin-left: 53px;
+  margin-top: -9px;
   /* padding: 38px 75px 22px 51px; */
   color: #ee3643;
 }
@@ -345,6 +349,9 @@ a.checkout:active {
 .header-contacts {
  /* padding-top: 57px; */
  flex-shrink: 0;
+  max-width: 270px;
+  margin-top: -1px;
+  margin-left: 2px;
 }
 
 .header-contacts a {
@@ -434,8 +441,7 @@ a.checkout:active {
 .user-profile {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
-  margin-left: 49px;
+
 }
 
 .user-profile p {
@@ -446,6 +452,8 @@ a.checkout:active {
   text-align: left;
   background-color: #fff;
   position: relative;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .user-name a {
@@ -562,10 +570,10 @@ a.user-name__log-out{
 .site-navigation li {
   font-family: Cuprum, Arial, sans-serif;
   list-style: none;
-  padding: 21px 10px;
+  padding-top: 21px;
+  padding-bottom: 24px;
   display: flex;
   justify-content: center;
-  display: flex;
   flex-grow: 1;
 }
 
@@ -948,6 +956,7 @@ button.slider__navigation-next {
   text-transform: uppercase;
   padding-left: 28px;
   margin-top: 28px;
+  max-width: 650px;
 }
 
 .catalog-goods__heading a {
@@ -958,10 +967,10 @@ button.slider__navigation-next {
   background-color: #ee3643;
   border-radius: 3px;
   padding: 11px 55px 5px 55px;
-  margin-top: 24px;
+  margin-top: 25px;
   margin-right: 24px;
   height: 38px;
-  margin-bottom: 26px;
+  margin-bottom: 25px;
 }
 
 .catalog-goods__heading a:hover {
@@ -995,7 +1004,7 @@ p.no-discount__button {
 
 .catalog-goods__items .cross-out {
   color: #a9a9a9;
-  margin-top: 13px;
+  margin-top: 10px;
 }
 
 .new-item {
@@ -1027,7 +1036,7 @@ a.popular-producers__button {
 .producers-list__container {
   display: flex;
   margin-bottom: 50px;
-  margin-top: 3px;
+  margin-top: 2px;
 }
 
 .producers-list {
@@ -1936,7 +1945,7 @@ fieldset {
   display: flex;
   justify-content: center;
   margin-top: 18px;
-  margin-bottom: 9px;
+  margin-bottom: 10px;
   font-family: 'PT Sans' , Arial, sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -1958,7 +1967,7 @@ fieldset {
   background-position: center;
   background-repeat: no-repeat;
   height: 38px;
-  margin-bottom: 19px;
+  margin-bottom: 20px;
 }
 
 /*Кнопки переключения страниц*/
