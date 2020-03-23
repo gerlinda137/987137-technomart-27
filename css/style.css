@@ -339,19 +339,15 @@ a.checkout:active {
   line-height: 23px;
   text-align: left;
   letter-spacing: normal;
-  max-width: 197px;
+  max-width: 220px;
   margin-left: 53px;
   margin-top: -9px;
-  /* padding: 38px 75px 22px 51px; */
   color: #ee3643;
 }
 
 .header-contacts {
- /* padding-top: 57px; */
  flex-shrink: 0;
   max-width: 270px;
-  margin-top: -1px;
-  margin-left: 2px;
 }
 
 .header-contacts a {
@@ -389,8 +385,7 @@ a.checkout:active {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  /* margin-top: 58px; */
-  /* margin-left: 70px; */
+  margin-left: 20px;
   padding: 0;
   list-style: none;
   width: 281px;
@@ -441,6 +436,7 @@ a.checkout:active {
 .user-profile {
   display: flex;
   flex-direction: column;
+  margin-top: -12px;
 
 }
 
@@ -452,7 +448,7 @@ a.checkout:active {
   text-align: left;
   background-color: #fff;
   position: relative;
-  padding-top: 0;
+  padding-top: 12px;
   margin-top: 0;
 }
 
@@ -571,7 +567,7 @@ a.user-name__log-out{
   font-family: Cuprum, Arial, sans-serif;
   list-style: none;
   padding-top: 21px;
-  padding-bottom: 24px;
+  padding-bottom: 23px;
   display: flex;
   justify-content: center;
   flex-grow: 1;
