@@ -1382,6 +1382,7 @@ p.filters-title {
 
 .sorting {
   display: flex;
+  justify-content: space-between;
   background-color: #f7f3ec;
   width: 74.5%;
 }
@@ -1400,6 +1401,7 @@ p.sorting-title {
 .sorting-types-and-buttons__wrapper {
   display: flex;
   justify-content: space-between;
+  width: 460px;
 }
 
 .sorting-types__wrapper {
@@ -1408,8 +1410,11 @@ p.sorting-title {
 
 .sorting-types {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   list-style: none;
-  padding-left: 13px;
+  padding-left: 0;
+  width: 355px;
   color: #000;
   margin: 0;
 }
@@ -1448,7 +1453,7 @@ button.sorting-types__active-button {
   border-bottom: none;
 }
 
-.sorting-types li:first-child {
+/* .sorting-types li:first-child {
   margin-right: 73px;
 }
 
@@ -1458,11 +1463,12 @@ button.sorting-types__active-button {
 
 .sorting-types li:last-child {
   margin-right: 55px;
-}
+} */
 
 .sorting-buttons {
   display: flex;
   align-items: center;
+  margin-right: 2px;
 }
 
 .sorting-buttons button {
@@ -1963,7 +1969,7 @@ fieldset {
   background-position: center;
   background-repeat: no-repeat;
   height: 38px;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
 
 /*Кнопки переключения страниц*/
