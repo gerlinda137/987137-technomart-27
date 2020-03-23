@@ -1507,6 +1507,7 @@ button.sorting-button__active {
 .filters {
   display: flex;
   flex-direction: column;
+  max-width: 220px;
   font-family: 'PT Sans', Arial, sans-serif;
   font-size: 15px;
   text-transform: uppercase;
@@ -1655,6 +1656,9 @@ fieldset {
 
 .checkbox-label {
   cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 180px;
 }
 
 .checkbox-input {
