@@ -2432,7 +2432,7 @@ textarea {
 
 .letter input[type='text'],
 textarea {
-  font-family: 'PT Sans'-Regular, Arial, sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-align: left;
