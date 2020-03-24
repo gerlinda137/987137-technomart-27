@@ -1451,18 +1451,6 @@ a.sorting-types__active-button {
   border-bottom: none;
 }
 
-/* .sorting-types li:first-child {
-  margin-right: 73px;
-}
-
-.sorting-types li:nth-child(2) {
-  margin-right: 70px;
-}
-
-.sorting-types li:last-child {
-  margin-right: 55px;
-} */
-
 .sorting-buttons {
   display: flex;
   align-items: center;
@@ -1518,14 +1506,6 @@ a.sorting-button__active {
   padding-bottom: 26px;
   border-bottom: 1px solid #e5e5e5;
 }
-
-/* .price-filter::after {
-  content: '';
-  border: solid 0.5px #e5e5e5;
-  width: 220px;
-  position: absolute;
-  top: 196px;
-} */
 
 .price-filter__title {
   font-family: 'PT Sans', Arial, sans-serif;
@@ -1599,7 +1579,6 @@ button.range-end {
   font-family: 'PT Sans', Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
-  /* padding-left: 20px; */
   -moz-appearance: textfield;
 }
 
@@ -1644,17 +1623,10 @@ fieldset.checkboxes {
   margin-bottom: 24px;
 }
 
-/* .checkboxes::after {
-  content: '';
-  border: solid 0.5px #e5e5e5;
-  width: 220px;
-  position: absolute;
-  top: 240px;
-} */
-
 .checkboxes-list {
   padding: 0;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .checkboxes-list li {
@@ -1663,7 +1635,7 @@ fieldset.checkboxes {
 }
 
 .checkboxes-list li:last-child {
-  margin-bottom: 24px;
+  margin-bottom: 21px;
 }
 
 .checkbox-label {
