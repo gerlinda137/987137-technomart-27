@@ -2541,6 +2541,7 @@ textarea::-ms-input-placeholder {
 .added-to-basket {
   display: flex;
   flex-direction: column;
+  z-index: 2;
   width: 620px;
   height: 282px;
   box-shadow: 0px 20px 40px 0 rgba(41, 52, 73, 0.75);
