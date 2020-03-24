@@ -1599,8 +1599,14 @@ button.range-end {
   font-family: 'PT Sans', Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   -moz-appearance: textfield;
+}
+
+.number-range input[type='number']::-webkit-inner-spin-button,
+.number-range input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .number-range span {
@@ -2036,6 +2042,7 @@ a.pages-buttons__active {
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
+  text-align: center;
   border: solid 1px #e5e5e5;
   border-radius: 3px;
   color: #000000;
