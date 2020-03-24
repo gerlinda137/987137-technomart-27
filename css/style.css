@@ -346,7 +346,7 @@ a.checkout:active {
 }
 
 .header-contacts {
- flex-shrink: 0;
+ /* flex-shrink: 0; */
   /* max-width: 270px; */
   margin-left: 71px;
 }
@@ -376,6 +376,7 @@ a.checkout:active {
   line-height: 24px;
   text-align: center;
   color: #32425c;
+  max-width: 270px;
 }
 
 .authorization {
@@ -454,6 +455,7 @@ a.checkout:active {
   position: relative;
   padding-top: 12px;
   margin-top: 0;
+  max-width: 300px;
 }
 
 .user-name a {
@@ -1820,7 +1822,7 @@ fieldset.checkboxes {
 }
 
 .catalog-version__items {
-  margin-bottom: 16px;
+  margin-bottom: 0;
 }
 
 .catalog-item:hover .catalog-item__hover-button {
@@ -1965,6 +1967,7 @@ fieldset.checkboxes {
   display: flex;
   align-items: center;
   margin-bottom: 42px;
+  margin-top: 15px;
 }
 
 .pages-buttons__list {
