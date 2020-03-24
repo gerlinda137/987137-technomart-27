@@ -1,5 +1,5 @@
 @font-face {
- font-family: 'Cuprum';
+ font-family: Cuprum;
    src: url("../fonts/cuprum/cuprum.woff2") format("woff2"),
         url("../fonts/cuprum/cuprum.woff") format("woff");
    font-weight: 400;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
- font-family: 'Cuprum';
+ font-family: Cuprum;
    src: url("../fonts/cuprum/cuprumbold.woff2") format("woff2"),
         url("../fonts/cuprum/cuprumbold.woff") format("woff");
    font-weight: 700;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
- font-family: 'Cuprum';
+ font-family: Cuprum;
    src: url("../fonts/cuprum/cuprumitalic.woff2") format("woff2"),
         url("../fonts/cuprum/cuprumitalic.woff") format("woff");
    font-weight: 400;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
- font-family: 'Cuprum';
+ font-family: Cuprum;
    src: url("../fonts/cuprum/cuprumbolditalic.woff2") format("woff2"),
         url("../fonts/cuprum/cuprumbolditalic.woff") format("woff");
    font-weight: 700;
@@ -57,7 +57,7 @@
 
 
 body {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   font-size: 17px;
   font-weight: 400;
   margin: 0;
@@ -91,7 +91,7 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -824,7 +824,7 @@ top: 31px;
 
 
 .slider__item p {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: Cuprum, Arial, sans-serif;
   color: #fff;
   font-size: 18px;
   line-height: 24px;
