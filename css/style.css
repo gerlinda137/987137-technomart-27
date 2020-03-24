@@ -1185,7 +1185,7 @@ a.popular-producers__button {
 }
 
 /*Карточка гарантии*/
-.garanty-card {
+.guarantee-card {
   display: none;
   padding-left: 80px;
   background-image: url(../img/guarantee@3x.png);
@@ -1194,7 +1194,7 @@ a.popular-producers__button {
   background-position-x: 320px;
 }
 
-.garanty-card p {
+.guarantee-card p {
   width: 380px;
 }
 
