@@ -339,7 +339,7 @@ a.checkout:active {
   line-height: 23px;
   text-align: left;
   letter-spacing: normal;
-  max-width: 220px;
+  max-width: 197px;
   margin-left: 53px;
   margin-top: -9px;
   color: #ee3643;
@@ -348,6 +348,7 @@ a.checkout:active {
 .header-contacts {
  flex-shrink: 0;
   max-width: 270px;
+  margin-left: 71px;
 }
 
 .header-contacts a {
@@ -437,6 +438,8 @@ a.checkout:active {
   display: flex;
   flex-direction: column;
   margin-top: -12px;
+  flex-shrink: 0;
+  margin-left: auto;
 
 }
 
@@ -1519,15 +1522,18 @@ button.sorting-button__active {
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-bottom: 21px;
+  padding-bottom: 26px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
-.price-filter::after {
+/* .price-filter::after {
   content: '';
   border: solid 0.5px #e5e5e5;
   width: 220px;
   position: absolute;
   top: 196px;
-}
+} */
 
 .price-filter__title {
   font-family: 'PT Sans', Arial, sans-serif;
@@ -1629,20 +1635,24 @@ fieldset {
   padding: 0;
 }
 
+fieldset.checkboxes {
+  border-bottom: 1px solid #e5e5e5;
+}
+
 .checkboxes {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 50px;
+  margin-bottom: 24px;
 }
 
-.checkboxes::after {
+/* .checkboxes::after {
   content: '';
   border: solid 0.5px #e5e5e5;
   width: 220px;
   position: absolute;
   top: 240px;
-}
+} */
 
 .checkboxes-list {
   padding: 0;
@@ -1652,6 +1662,10 @@ fieldset {
 .checkboxes-list li {
   list-style: none;
   margin-bottom: 23px;
+}
+
+.checkboxes-list li:last-child {
+  margin-bottom: 24px;
 }
 
 .checkbox-label {
@@ -1701,7 +1715,6 @@ fieldset {
 .radiobuttons {
   display: flex;
   flex-direction: column;
-  margin-top: 25px;
 }
 
 .radiobuttons legend {
