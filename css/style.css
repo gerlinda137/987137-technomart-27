@@ -710,7 +710,7 @@ a.user-name__log-out{
   top: 33px;
 }
 
-.tracktor-icon{
+.tractor-icon{
 left: 191px;
 top: 31px;
 }
@@ -1250,7 +1250,6 @@ a.popular-producers__button {
   height: 2px;
   margin-right: 11px;
   content: '';
-  vertical-align: middle;
   background-color: #ee3643;
 }
 
