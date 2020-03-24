@@ -2028,6 +2028,7 @@ fieldset.checkboxes {
 a.pages-buttons__active {
   color: #ffffff;
   background-color: #ee3643;
+  border-color: #ee3643;
 }
 
 .pages-buttons__next {
