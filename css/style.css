@@ -347,7 +347,7 @@ a.checkout:active {
 
 .header-contacts {
  flex-shrink: 0;
-  max-width: 270px;
+  /* max-width: 270px; */
   margin-left: 71px;
 }
 
@@ -380,6 +380,7 @@ a.checkout:active {
 
 .authorization {
   display: flex;
+  justify-content: flex-end;
 }
 
 .authorization-list {
