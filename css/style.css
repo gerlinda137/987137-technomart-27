@@ -1421,7 +1421,7 @@ p.sorting-title {
   margin: 0;
 }
 
-.sorting-types button {
+.sorting-types a {
   display: flex;
   font-family: 'PT Sans', Arial, sans-serif;
   color: rgba(0, 0, 0, 0.18);
@@ -1432,25 +1432,21 @@ p.sorting-title {
   text-transform: uppercase;
   margin-top: 9px;
   margin-bottom: 0;
-  border: none;
   border-bottom: 1px dotted #ee3643;
-  background-image:none;
-  background-color:transparent;
-  box-shadow: none;
   cursor: pointer;
 }
 
-.sorting-types button:hover {
+.sorting-types a:hover {
   color: #000;
   border-bottom: 1px #ee3643 solid;
 }
 
-.sorting-types button:active {
+.sorting-types a:active {
   color: #ee3643;
   border-bottom: none;
 }
 
-button.sorting-types__active-button {
+a.sorting-types__active-button {
   color: #ee3643;
   border-bottom: none;
 }
